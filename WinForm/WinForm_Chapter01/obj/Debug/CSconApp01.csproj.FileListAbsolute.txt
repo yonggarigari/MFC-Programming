@@ -1,0 +1,7 @@
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\bin\Debug\CSconApp01.exe.config
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\bin\Debug\CSconApp01.exe
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\bin\Debug\CSconApp01.pdb
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\obj\Debug\CSconApp01.csproj.AssemblyReference.cache
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\obj\Debug\CSconApp01.csproj.CoreCompileInputs.cache
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\obj\Debug\CSconApp01.exe
+C:\Users\EMBEDDED\Desktop\C#\WinFormCS\CSconApp01\obj\Debug\CSconApp01.pdb
