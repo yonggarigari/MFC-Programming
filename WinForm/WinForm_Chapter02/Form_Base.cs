@@ -19,7 +19,7 @@ namespace WinFormTest01_Base
         {
             InitializeComponent(); // 생성자
             if (EncMode == 0) menuUtf8_Click(null, null);
-            else menuAnsi_Click(null, null);
+            else              menuAnsi_Click(null, null);
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -29,6 +29,7 @@ namespace WinFormTest01_Base
 
         string ReadBuf;
         Encoding enc = Encoding.UTF8; // Windows 기본
+
         private void menuOpen_Click(object sender, EventArgs e)
         {
             DialogResult ret = openFileDialog1.ShowDialog();
@@ -56,7 +57,7 @@ namespace WinFormTest01_Base
             {
                 string fn = saveFileDialog1.FileName; // 파일의 전체경로
                 FileStream fs = new FileStream(fn, FileMode.Create);
-                StreamWriter sw = new StreamWriter(fs, enc);
+                StreamWriter sw = new StreamWriter(fs);
                 sw.Write(tbMemo.Text);
                 sw.Close();
                 fs.Close();
